@@ -1,13 +1,130 @@
 * {
     font-family: 'Work Sans', sans-serif;
+    color: #000000;
     list-style: none;
     outline: none;
     text-decoration: none;
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-}
-h1 {
-    font-family: 'Kalam', cursive;
+    text-align: center;
 }
 
+/* titulos y fondos */
+
+* body {
+    background-color:#f2f2f2;
+}
+#Titulo {
+    font-family: 'Kalam', cursive;
+    color: #765440;
+    font-size: 40pt;
+    text-align: center; 
+    margin-top: 50px ;
+}
+
+/* primera seccion */
+#subtitulo {
+    font-family: 'Kalam', cursive;
+    color: #765440;
+    font-size: 24pt ;
+    text-align: center;
+}
+p.subtitulo {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16pt;
+    
+
+}
+/* texto del jumbotron */
+p.Texto {
+    color: #000000;
+    font-size: 12pt;
+    text-align: center;
+
+/* Texto de precios en "especiales del mes " */
+}
+p.titulo2 {
+    color: #3D1D26;
+    text-decoration: line-through;
+}
+
+h3,h4 {
+    color: #3D1D26;
+
+}
+/* Parrafos */
+li.inline {
+    display: inline;
+    padding: 33px;
+}
+
+/* texto productos */
+section.productostop {
+    text-align: center;
+}
+
+
+
+/* menu de navegacion */
+
+* nav {
+    background-color: #D7A68A;
+    margin-top: 30px;
+}
+#Cafe {
+    background-image: url(nordwood-themes-ivP3TYdLvw0-unsplash.jpg);
+    height: 300px;
+    background-size: cover;
+}
+section.Margen {
+    background-color: #3D1D26;
+
+}
+
+
+
+/* botones */
+
+* button {
+    color: #000000;
+    background-color: #D7A68A;
+    border-radius: 5px; 
+}
+button.botonespecial {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+
+
+/* Card Product */
+
+div.Card_product {
+
+    background-color: #FFFFFF;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px; 
+
+}
+div.Card_product img {
+    width: 300px;
+    height: 300px;
+}
+ div.Card_product h4 {
+    text-align: center;
+    font-size: 16pt;
+ }
+div.Card_product p {
+    text-align: right;
+    font-size: 12pt;
+}
+
+
+/* footer */
+footer.Margen2 {
+    background-color: #FFFFFF;
+}
