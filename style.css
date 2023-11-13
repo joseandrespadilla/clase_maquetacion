@@ -11,15 +11,6 @@
     text-align: center;
 }
 
-/* color de pagina y letras */
-
-* body {
-    background-color:#f2f2f2;
-}
-h3,h4 {
-    color: #3D1D26;
-
-}
 /* botones */
 
 * button {
@@ -27,6 +18,17 @@ h3,h4 {
     background-color: #D7A68A;
     border-radius: 5px; 
     font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* color de pagina y letras */
+
+body {
+    background-color:#f2f2f2;
+}
+h3,h4 {
+    color: #3D1D26;
 }
 
 /* primera lista del menu de navegacion */
@@ -37,7 +39,8 @@ header {
     height: 100px;
     clear: both; 
 }
-* nav {
+
+nav {
     margin-top: 30px;
 }
 
@@ -57,33 +60,38 @@ ul.nav {
 
 /* jumboton */
 
+/* imagen del jumbotron */
+   
+#Cafe {
+   background-image: url('nordwood-themes-ivP3TYdLvw0-unsplash.jpg');
+   height: 300px;
+   background-size: cover;
+}
+
 #Titulo {
     font-family: 'Kalam', cursive;
     color: #765440;
     font-size: 40pt;
     text-align: center; 
-    margin-top: 50px ;}
+    margin-top: 50px ;
+}
 
 /* texto del jumbotron */
 p.Texto {
     color: #000000;
     font-size: 12pt;
-    text-align: center;}  
+    text-align: center;
+}  
 
- /* imagen del jumbotron */
-    
- #Cafe {
-    background-image: url('nordwood-themes-ivP3TYdLvw0-unsplash.jpg');
-    height: 300px;
-    background-size: cover;}
     
 /* segunda lista del menu de navegacion */
 
-    section.Margen {
+section.Margen {
     width: 100%;
     height: 50px;
     background-color:#3D1D26;
     clear: both;
+    color: #f2f2f2;
 }
 
 li.Menu2 {
@@ -92,6 +100,7 @@ li.Menu2 {
     margin-top: 5px;
     margin-left: 30px;
     float: left;
+    
 }
 
 
@@ -99,32 +108,33 @@ li.Menu2 {
 /* primera seccion */
 
 section.seccion1 {
-    display: flex;
-    flex-direction: column;
-    height: 700px ;
-    width: 700px;
+    display: block;
     margin: auto;
-
+    height: 500px ;
+    width: 700px;
+    justify-content: center;
 }
+
 #subtitulo {
-    margin-top: 50px;
+    padding-top: 100px;
     font-family: 'Kalam', cursive;
     color: #765440;
     font-size: 24pt ;
 }
+
 p.subtitulo {
-    padding-top: 2pt;
+    padding-top: 10px;
     font-size: 16pt;
-    padding-bottom: 10px;
 }
+button.vermas {
+    margin-top: 20px;
+}
+
 /* segunda seccion */
 div.Centrar {
+    gap: 5vw;
     display: flex;
     justify-content: center;
-    gap: 5vw;
-    padding: 0%;
-    
-
 }
 
 div.Borde img {
@@ -134,11 +144,13 @@ div.Borde img {
 }
 div.Borde {
     width: 250px;
-    height: 250px;
+    padding-bottom: 80px;
 }
 /* Productos Top */
+
 h2.h2 {
-    padding-top: 5vw;
+    font-size: 24pt;
+    padding: 20px;
 }
 
 ul.productostop {
@@ -146,6 +158,7 @@ ul.productostop {
     padding: 20px;
     gap: 20px;
     justify-content: center;
+
 }
 button.botonespecial {
     color: #000000;
@@ -163,36 +176,39 @@ div.Card {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5vw;
+    padding-top: 40px;
 }
 
 div.Card_product {
-
+    
     background-color: #FFFFFF;
-    width: 350px;
-    margin: 20px;
-    padding: 20px;
+    width: 250px;
+    height: 300px;
     border-radius: 10px;
     
     
 }
 
 div.Card_product img {
-    width: 300px;
-    height: 300px;}
+    width: 200px;
+    height: 200px;}
 
     div.Card_product h4 {
     text-align: center;
     font-size: 16pt;
+    padding-bottom: 20px;
  }
 div.Card_product p {
     text-align: right;
     font-size: 12pt;
+    padding-right: 20px;
 }
 
 /* Nuestros Dulces */
  h2.NuestrosDulces {
     font-size: 24pt;
-    padding-top: 10vw;
+    padding-top: 8vw;
     padding-bottom: 5vw;
  }
  div.Productos img {
@@ -204,8 +220,9 @@ div.Card_product p {
 
 /* Texto de precios en "especiales del mes " */
 h2.Especialesdelmes {
-    padding-top: 10vw;
-    padding-bottom: 1vw;
+    padding-top: 8vw;
+    padding-bottom: 40px;
+    font-size: 24pt;
 }
 p.parrafo1 {
     display: inline;
@@ -230,7 +247,6 @@ footer.footer {
 
 }
 div.Centrar2 img {
-
     justify-content: flex-start;
 }
 p.Lorem {
@@ -241,22 +257,32 @@ p.Lorem {
     padding-left: 10px;
     font-size: 12pt;
     text-align: left;
+    position: relative;
 }
     
 ul.Informacion {
-    display: list-item;
+    position: relative;
+    top: 50px;
+    left: 40vw;
     
 }
-
+ul.Informacion2 {
+    position: relative;
+    top: 50px;
+    left: 20vw;
+    
+}
 li.alinear {
     text-align: left;
 }
 footer div.Centrar3 {
-   
+   position: absolute;
+   bottom: auto;
+   right: 20vw;
     padding: 15px;
     width: 100px;
     height: 100px;
-    justify-content: flex-end;
+    display: flex;
     
 }
 
