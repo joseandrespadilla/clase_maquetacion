@@ -13,13 +13,14 @@
 
 /* botones */
 
-* button {
+ button.button {
     color: #000000;
     background-color: #D7A68A;
-    border-radius: 5px; 
+    border-radius: 10px; 
     font-weight: bold;
-    padding-left: 5px;
-    padding-right: 5px;
+    width: 150px;
+    height: 44px;
+    font-size: 16pt;
 }
 
 /* color de pagina y letras */
@@ -33,72 +34,75 @@ h3,h4 {
 
 /* primera lista del menu de navegacion */
 
-header {
+nav {
     background-color: #D7A68A;
     width: 100%;
-    height: 100px;
+    height: 96px;
     clear: both; 
-}
-
-nav {
-    margin-top: 30px;
+    margin-top: 66px;
 }
 
 nav img {
     float: left;
-    padding: 15px;
-    margin-left: 30px;
+    padding-left: 160px;
+    padding-top: 19px;
 }
 ul.nav {
     display: flex;
     float: right;
-    padding: 40px;
-    margin-right: 30px;
+    padding-right: 160px;
+    padding-top: 39px;
     font-weight: bold;
-    gap: 25px;
+    gap: 33px;
 }
 
 /* jumboton */
 
 /* imagen del jumbotron */
-   
+
+
 #Cafe {
-   background-image: url('nordwood-themes-ivP3TYdLvw0-unsplash.jpg');
-   height: 300px;
+   background-image: url('/taza\ cafe\ jumbotrom\ 1.jpg');
+   height: 355px;
    background-size: cover;
 }
 
+/* titulo del jumbotron */
 #Titulo {
-    font-family: 'Kalam', cursive;
+    font-family: 'Kaushan Script', cursive;
     color: #765440;
     font-size: 40pt;
     text-align: center; 
-    margin-top: 50px ;
+    padding-top: 51px ;
+    padding-bottom: 19px;
 }
 
 /* texto del jumbotron */
 p.Texto {
-    color: #000000;
+    color: #765440;
     font-size: 12pt;
     text-align: center;
+    padding-bottom: 17px;
 }  
 
     
 /* segunda lista del menu de navegacion */
 
-section.Margen {
+section.Nav2 {
     width: 100%;
-    height: 50px;
+    height: 52px;
     background-color:#3D1D26;
     clear: both;
-    color: #f2f2f2;
-}
 
+}
+section.Nav2 a {
+    color: #fff;
+}
 li.Menu2 {
     display: inline;
-    padding: 10px;
-    margin-top: 5px;
-    margin-left: 30px;
+    gap: 67px;
+    padding-top: 16px;
+    margin-left: 60px;
     float: left;
     
 }
@@ -110,52 +114,67 @@ li.Menu2 {
 section.seccion1 {
     display: block;
     margin: auto;
-    height: 500px ;
-    width: 700px;
+    width: 680px;
     justify-content: center;
 }
-
-#subtitulo {
-    padding-top: 100px;
-    font-family: 'Kalam', cursive;
+/* titulo de la seccion */
+h2.subtitulo {
+    padding-top: 111px;
+    padding-bottom: 67px;
+    font-family: 'Kaushan Script', cursive;
     color: #765440;
     font-size: 24pt ;
 }
-
-p.subtitulo {
-    padding-top: 10px;
+/* parrafo de la seccion */
+p.Texto2 {
+    padding-bottom: 34px;
     font-size: 16pt;
 }
-button.vermas {
-    margin-top: 20px;
+/* boton de la seccion */
+button.ver {
+    width: 100px;
+    height: 29px;
+    color: #000000;
+    background-color: #D7A68A;
+    border-radius: 10px; 
+    font-weight: bold;
+    font-size: 16pt;
 }
 
 /* segunda seccion */
-div.Centrar {
-    gap: 5vw;
+div.Seccion2 {
+    gap: 77px;
     display: flex;
     justify-content: center;
+    padding-top: 95px;
 }
-
 div.Borde img {
     border-radius: 10px;
-    width: 250px;
-    height: 250px;
+    width: 273px;
+    height: 246px;
 }
 div.Borde {
-    width: 250px;
+    width: 273px;
     padding-bottom: 80px;
+}
+h3.subtitulo2 {
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 /* Productos Top */
 
+section.productostop {
+    padding-top: 90px;
+    padding-bottom: 153px;
+}
 h2.h2 {
     font-size: 24pt;
-    padding: 20px;
+    padding-bottom: 33px;
 }
 
 ul.productostop {
     display: flex;
-    padding: 20px;
+    padding-bottom: 32px;
     gap: 20px;
     justify-content: center;
 
@@ -166,8 +185,9 @@ button.botonespecial {
     font-weight: bold;
     font-size: 16pt;
     border-radius: 20px;
-    padding-left: 5pt;  
-    padding-right: 5pt;
+    width: 100px;
+    height: 30px;
+
 }
 
 /* Card Product */
@@ -176,65 +196,115 @@ div.Card {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: 77px;
     padding-top: 40px;
+    padding-bottom: 153px;
 }
 
 div.Card_product {
     
     background-color: #FFFFFF;
-    width: 250px;
-    height: 300px;
+    width: 275px;
+    height: 395px;
     border-radius: 10px;
+}
+div.Card_product1 {
     
-    
+    background-color: #FFFFFF;
+    width: 275px;
+    height: 395px;
+    border-radius: 10px;
 }
 
 div.Card_product img {
-    width: 200px;
-    height: 200px;}
+    width: 234px;
+    height: 168px;
+    justify-content: center;
+    margin-top: 115px;
+}
+div.Card_product1 img {
+    width: 156px;
+    height: 238px;
+    justify-content: center;
+    margin-top: 42px;
+}
 
-    div.Card_product h4 {
+ div.Card_product h4 {
     text-align: center;
     font-size: 16pt;
-    padding-bottom: 20px;
+    padding-top: 9px;
+ }
+ div.Card_product1 h4 {
+    text-align: center;
+    font-size: 16pt;
+    padding-top: 14px;
  }
 div.Card_product p {
     text-align: right;
     font-size: 12pt;
-    padding-right: 20px;
+    padding-right: 16px;
+    padding-top: 31px;
+}
+div.Card_product1 p {
+    text-align: right;
+    font-size: 12pt;
+    padding-right: 16px;
+    padding-top: 31px;
 }
 
 /* Nuestros Dulces */
- h2.NuestrosDulces {
+
+
+/* titulo */
+h2.NuestrosDulces {
     font-size: 24pt;
-    padding-top: 8vw;
-    padding-bottom: 5vw;
- }
- div.Productos img {
-    border-radius: 5%;
-    width: 450px;
-    height: 450px;
-    padding: 10px;
+    padding-bottom: 54px;
 }
+
+div.Line {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 56px;
+}
+
+div.Line img {
+    padding-bottom: 61px;
+}
+
+ /* imagenes*/
+ div.Productos img {
+    border-radius: 10px;
+    width: 374px;
+    height: 358px;
+    margin: 20px;
+    
+}
+div.Productos2 img {
+    border-radius: 10px;
+    width: 374px;
+    height: 358px;
+    margin: 20px;
+}
+
 
 /* Texto de precios en "especiales del mes " */
+
 h2.Especialesdelmes {
-    padding-top: 8vw;
-    padding-bottom: 40px;
+    padding-top: 103px;
+    padding-bottom: 48px;
     font-size: 24pt;
 }
-p.parrafo1 {
-    display: inline;
-    padding-left: 150px;
 
+div.parrafo1 {
+    display: flex;
+    padding-left: 140px;
+    gap: 8px;
 }
+
 p.parrafo2 {
     color: #3D1D26;
     text-decoration: line-through;
-    display: inline;
-    clear: both;
-    float: right;
 }
 
 
@@ -242,47 +312,60 @@ p.parrafo2 {
 footer.footer {
     background-color: #FFFFFF;
     width: 100%;
+    height: 244px;
     display: flex;
-    margin-top: 5vw;
+    margin-top: 134px;
+    
+}
 
+/* derechos reservados */
+div.logo2 {
+    padding-top: 54px;
+    padding-left: 63px;
+    display: grid;
 }
-div.Centrar2 img {
-    justify-content: flex-start;
+
+div.logo2 img {
+    float: left;
+    width: 78px;
+    height: 55px;
 }
-p.Lorem {
-    width: 200px;
-    height: 100px;
-    justify-content: flex-start;
-    padding-top: 5px;
-    padding-left: 10px;
-    font-size: 12pt;
+div.logo2 p {
+    width: 190px;
+    font-size: 16pt;
     text-align: left;
-    position: relative;
 }
     
+/* informacion*/
 ul.Informacion {
-    position: relative;
-    top: 50px;
-    left: 40vw;
+    padding-left: 200px;
+    padding-top: 54px;
     
 }
 ul.Informacion2 {
-    position: relative;
-    top: 50px;
-    left: 20vw;
+    padding-left: 78px;
+    padding-top: 54px;
     
 }
 li.alinear {
     text-align: left;
+    padding-bottom: 13px;
+    font-size: 16pt;
 }
-footer div.Centrar3 {
-   position: absolute;
-   bottom: auto;
-   right: 20vw;
-    padding: 15px;
-    width: 100px;
-    height: 100px;
+
+/* informacion de redes sociales */
+div.Redes {
+   
+    padding-top: 92px;
+    padding-left: 183px;
     display: flex;
+    gap: 55px;
     
+
 }
+div.Redes img {
+    width: 32px;
+    height: 32px;
+}
+
 
