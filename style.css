@@ -11,6 +11,7 @@
     text-align: center;
     font-size: 16pt;
 }
+
 /* botones */
 button {
     background-color: #D7A68A;
@@ -21,6 +22,7 @@ button {
      width: 150px;
      height: 44px;
 }
+
 /* color de pagina y letras */
 body {
     background-color:#f2f2f2;
@@ -28,6 +30,7 @@ body {
 h3,h4 {
     color: #3D1D26;
 }
+
 /* primera lista del menu de navegacion */
 nav {
     background-color: #D7A68A;
@@ -49,6 +52,7 @@ ul.nav {
     font-weight: bold;
     gap: 33px;
 }
+
 /* jumboton */
 #jumbotron {
    background-image: url('/image/taza\ cafe\ jumbotrom\ 1.jpg');
@@ -67,6 +71,7 @@ p.slogan {
     padding-bottom: 17px;
     color: #765440;
 }  
+
 /* segunda lista del menu de navegacion */
 section.segundo {
     width: 100%;
@@ -84,6 +89,7 @@ li.Menu {
     margin-left: 60px;
     float: left;
 }
+
 /* primera seccion */
 section.primerseccion {
     display: block;
@@ -107,6 +113,7 @@ button.ver {
     border-radius: 10px; 
     font-weight: bold;
 }
+
 /* segunda seccion */
 div.segundaseccion {
     gap: 77px;
@@ -127,6 +134,7 @@ h3.imagenes {
     padding-top: 14px;
     padding-bottom: 14px;
 }
+
 /* Productos Top */
 section.productostop {
     padding-top: 90px;
@@ -149,6 +157,7 @@ button.botonespecial {
     width: 100px;
     height: 30px;
 }
+
 /* Card Product */
 div.Card {
     display: flex;
@@ -183,12 +192,10 @@ div.Card_product_excepcion img {
 }
  div.Card_product h4 {
     text-align: center;
-    font-size: 16pt;
     padding-top: 9px;
  }
  div.Card_product_excepcion h4 {
     text-align: center;
-    font-size: 16pt;
     padding-top: 14px;
  }
 div.Card_product p {
@@ -203,6 +210,7 @@ div.Card_product_excepcion p {
     padding-right: 16px;
     padding-top: 31px;
 }
+
 /* Nuestros Dulces */
 h2.NuestrosDulces {
     font-size: 24pt;
@@ -229,6 +237,7 @@ div.Masproductos img {
     height: 358px;
     margin: 20px;
 }
+
 /* Texto de precios en "especiales del mes " */
 h2.Especialesdelmes {
     padding-top: 103px;
@@ -244,6 +253,7 @@ p.precio {
     color: #3D1D26;
     text-decoration: line-through;
 }
+
 /* footer */
 footer.footer {
     background-color: #FFFFFF;
