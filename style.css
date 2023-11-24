@@ -57,6 +57,12 @@ body {
   width: 9000px;
 }
 
+.temaso {
+position:relative;
+  display:block;
+  border-radius: 50px;
+}
+
 .cancion {
   width: 7100px;
   font-size: 31px;
@@ -127,6 +133,19 @@ background-color: #7f5ad6;
       justify-content: center;
       align-items: center;
       height: 100vh;
+}
+
+.s {
+  position: absolute;
+top: 21;
+right: 576;
+}
+
+.d {
+  position: absolute;
+  top: 21;
+  right: 526;
+  transform: rotate(180deg);
 }
 
 .search-container {
@@ -227,6 +246,12 @@ width: 500px;
 position: absolute;
 top: 453;
 right: 15;
+}
+
+.linea {
+  position: absolute;
+top: -90;
+right: 576;
 }
 
 .corazon1 {
