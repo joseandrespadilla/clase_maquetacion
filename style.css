@@ -136,7 +136,7 @@ background-color: #7f5ad6;
 }
 
 .s {
-  position: absolute;
+position: absolute;
 top: 21;
 right: 576;
 }
@@ -256,37 +256,37 @@ right: 576;
 
 .corazon1 {
 position: absolute;
-top: 110;
+top: 115;
 right: 45; 
 }
 
 .corazon2 {
 position: absolute;
-top: 180;
+top: 186;
 right: 45; 
 }
 
 .corazon3 {
 position: absolute;
-top: 250;
+top: 256;
 right: 45; 
 }
 
 .corazon4 {
 position: absolute;
-top: 320;
+top: 325;
 right: 45; 
 }
 
 .corazon5 {
 position: absolute;
-top: 390;
+top: 394;
 right: 45; 
 }
 
 .corazon6 {
 position: absolute;
-top: 460;
+top: 464;
 right: 45; 
 }
 
