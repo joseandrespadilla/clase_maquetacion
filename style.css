@@ -229,6 +229,42 @@ top: 453;
 right: 15;
 }
 
+.corazon1 {
+position: absolute;
+top: 110;
+right: 45; 
+}
+
+.corazon2 {
+position: absolute;
+top: 180;
+right: 45; 
+}
+
+.corazon3 {
+position: absolute;
+top: 250;
+right: 45; 
+}
+
+.corazon4 {
+position: absolute;
+top: 320;
+right: 45; 
+}
+
+.corazon5 {
+position: absolute;
+top: 390;
+right: 45; 
+}
+
+.corazon6 {
+position: absolute;
+top: 460;
+right: 45; 
+}
+
 &::before {
   content: "";
   position: absolute;
@@ -343,19 +379,23 @@ right: 45;
   position: absolute;
 top: 83;
 right: 250;
-  
 }
 
 .a {
   position: absolute;
 top: 83;
-right: 180;
-  
+right: 180;  
 }
 
 .b {
   position: absolute;
 top: 83;
 right: 321;
-  
+transform: rotate(180deg);
+}
+
+.repetir {
+  position: absolute;
+top: 83;
+right: 80;
 }
