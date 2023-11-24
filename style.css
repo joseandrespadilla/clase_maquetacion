@@ -320,7 +320,7 @@ font-size: 15px;
  } 
 
 .pantalla {
-    border: 2px solid #ccc;
+    border: 5px solid #ccc;
     border-radius: 50px;
     align-items: center;
     bottom: 0%;
@@ -332,3 +332,30 @@ font-size: 15px;
     padding: 80px;
     top: 634;
   }
+
+.corazon {
+  position: absolute;
+top: 24;
+right: 45;
+}
+
+.pausa {
+  position: absolute;
+top: 83;
+right: 250;
+  
+}
+
+.a {
+  position: absolute;
+top: 83;
+right: 180;
+  
+}
+
+.b {
+  position: absolute;
+top: 83;
+right: 321;
+  
+}
