@@ -80,19 +80,41 @@ console.log(
         }
 
 )
+
+
+
 .then(
-   //Callback//
-
+    //Callback//
     (response) => {
+        let contenedor = document.querySelector('#track-list')
         let canciones = response.data
-        canciones.map((cancion) => {
-
-          console.log(cancion.album)
-        } )
+        canciones.map((song) => {
 
 
-    }
-)
+            let component= document.createElement('button')
+            component.classList.add('song')
+            component.innerHTML = `
+            <li> <img src= "${song.path.front}"width="120" height="120" alt="Representacion visual de la portada del album"> </li>
+            <li class="text">${song.title}</li>
+            <li >${song.author}</li>
+            `
+
+            component.addEventListener('click', () => { 
+
+                document.querySelector('#current-song-img').setAttribute('src, song.path.front') 
+
+                document.querySelector('#current-song-audio').setAttribute('src', song.path.audio)
+
+                document.querySelector('#current-song-title').innerHTML = song.title
+
+                document.querySelector('#current-song-author').innerHTML =song.author
+
+                console.log('Se hizo click en ${song.title}')
+            })
+
+            contenedor.appendChild(component)
+
+        })
 
 
-console.log(canciones)
+    })

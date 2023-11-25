@@ -6,157 +6,37 @@
   outline: none;
   list-style: none;
   top: 10;
+  font-size: 16pt;
 }
 
 body {
+  display: flex;
   background-color: rgb(20, 31, 43);
-  
 }
 
-.input-group  {
-  right: -16.9;
-  top: 10;
-  font-size: 1.25rem;
-  position: relative;
-  --primary:#2196f3
+.left-page {
+  color: #f1f1f1;
+  width: 40%;
 }
 
-.input {
-  all: unset;
-  color: #fefefe;
-  padding: 1rem;
-  border: 1px solid #9e9e9e;
-  border-radius: 100px;
-  transition: 150ms
-  cubic-bezier(0.4, 0.2 1)
-}
-
-.label {
-  position: absolute;
-  top:1rem;
-  left: 1rem;
-  color: #d4d4d4;
-  pointer-events: none;
-  transition: 150ms
-  cubic-bezier(0.4, 0, 0.2, 1)
-}
-
-.input:focus {
-  border: 1px solid
-  var(--primary);
-}
-
-.input:is(:focus, :valid) ~ label {
-  transform:
-     translateY(-120%)
-     scale(0.7)
-}
-
-.images {
-  margin: 0.2%;
-  width: 9000px;
-}
-
-.temaso {
-position:relative;
-  display:block;
+.left-page .current-song img{
+  width: 100%;
   border-radius: 50px;
 }
 
-.cancion {
-  width: 7100px;
-  font-size: 31px;
-  color: #f1f1f1;
+.right-page {
+  width: 60%;
 }
-
-
-.temas {
+.right-page .track-list {
   display: flex;
-}
-
-.btn--1:hover {
-animation: shadow-pulse 1000ms 1;
-background-color: #7f5ad6;
-}
-
-.btn--2:hover {
-animation: shadow-pulse 1000ms 1;
-background-color: #7f5ad6;
-}
-
-.btn--3:hover {
-animation: shadow-pulse 1000ms 1;
-background-color: #7f5ad6;
-}
-  
-.btn--4:hover {
-animation: shadow-pulse 1000ms 1;
-background-color: #7f5ad6;
-  }
-
-  @keyframes shadow-pulse {
-      0% {
-        box-shadow: 0 0 0 0 #7243df(32, 226, 215, 0.6);
-      }
-      100% {
-        box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
-      }
-    }
-
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-}
-
-.s {
-position: absolute;
-top: 21;
-right: 576;
-}
-
-.d {
-  position: absolute;
-  top: 21;
-  right: 526;
-  transform: rotate(180deg);
-}
-
-.search-container {
-position: relative;
-}
-
-.search-input {
-padding: 8px;
-font-size: 15px;
-border: 4px solid #ccc;
-border-radius: 100px;
-width: 500px;
-position: absolute;
-top: 20;
-right: 55;
-}
-
-.bt {
+  flex-wrap: wrap;
+  width: 100%;
 
 }
-.bt:hover {
-  
+.right-page .track-list .song {
+  width: 600px;
+  padding: 1em;
+  border: 3px solid #ffffff;
+  border-radius: 100px;
+  color: rgb(20, 31, 43);
 }
-
-.pantalla {
-  display:flex;
-  font-size: 15px;
-  gap: 16pt;
-  padding: 16pt;
-    border: 5px solid #ccc;
-    border-radius: 50px;
-    align-items: center;
-    bottom: -40%; 
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 534;
-  }
-
-
