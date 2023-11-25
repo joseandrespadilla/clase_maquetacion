@@ -61,4 +61,38 @@ console.log(
     MiFuncionFlecha()
     )
 
+    // Una funcion
+    //Reciba dos parametro
+    //Retorne el resulta de la division de el primer parametro entre el segundo parametro
 
+    let FuncionDividir = (num1, num2) => {
+        return num1 / num2
+    }
+      console.log( FuncionDividir (0,2) )
+
+     console.log(axios) 
+
+     axios.get('https://leonardoapi.onrender.com/music')
+     .catch(
+        () => {
+
+            console.log('La promesa ha fallado')
+        }
+
+)
+.then(
+   //Callback//
+
+    (response) => {
+        let canciones = response.data
+        canciones.map((cancion) => {
+
+          console.log(cancion.album)
+        } )
+
+
+    }
+)
+
+
+console.log(canciones)
